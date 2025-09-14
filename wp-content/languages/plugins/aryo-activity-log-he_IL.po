@@ -1,0 +1,844 @@
+# Translation of Plugins - Activity Log &#8211; Monitor &amp; Record User Changes - Stable (latest release) in Hebrew
+# This file is distributed under the same license as the Plugins - Activity Log &#8211; Monitor &amp; Record User Changes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-17 17:31:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: he_IL\n"
+"Project-Id-Version: Plugins - Activity Log &#8211; Monitor &amp; Record User Changes - Stable (latest release)\n"
+
+#: classes/class-aal-settings.php:134
+msgid "Don't Keep"
+msgstr "אל תשמור"
+
+#: classes/class-aal-settings.php:124
+msgid "Keep Email Logs"
+msgstr "שמור שליחת אימיילים"
+
+#: i18n/strings.php:62
+msgid "failed"
+msgstr "נכשל"
+
+#: i18n/strings.php:61
+msgid "sent"
+msgstr "נשלח"
+
+#: i18n/strings.php:60
+msgid "Emails"
+msgstr "אימיילים"
+
+#. Description of the plugin
+#: aryo-activity-log.php
+msgid "This top rated Activity Log plugin helps you monitor & log all changes and actions on your WordPress site, so you can remain secure and organized."
+msgstr "תוסף יומן פעילות עוזר לך לפקח ולרשום את כל השינויים והפעולות באתר הוורדפרס שלך, כך שתוכל להישאר מאובטח ומאורגן."
+
+#: classes/class-aal-settings.php:163
+msgid "<strong>Please note:</strong> if you choose \"Do not collect IP\", the IP column will be hidden in the log."
+msgstr "<strong>שים לב:</strong> אם תבחר באפשרות של \"אל תאסוף IP\", עמודת IP תיהיה מוסתרת ביומן השינויים."
+
+#: classes/class-aal-settings.php:159
+msgid "Do not collect IP"
+msgstr "אל תאסוף IP"
+
+#: classes/class-aal-settings.php:141
+msgid "Visitor IP Detected"
+msgstr "זוהה כתובת IP של מבקר"
+
+#: i18n/strings.php:52
+msgid "Taxonomies"
+msgstr "טקסמוניות"
+
+#: i18n/strings.php:49
+msgid "Menus"
+msgstr "תפריטים"
+
+#: i18n/strings.php:43
+msgid "Widgets"
+msgstr "וידג'טים"
+
+#: i18n/strings.php:39
+msgid "Themes"
+msgstr "תבניות עיצוב"
+
+#: i18n/strings.php:20
+msgid "Attachments"
+msgstr "קבצי מדיה"
+
+#: i18n/strings.php:12
+msgid "Posts"
+msgstr "פוסטים"
+
+#: classes/class-aal-activity-log-list-table.php:552
+msgid "Reset Filters"
+msgstr "איפוס סינון"
+
+#: classes/class-aal-activity-log-list-table.php:514
+msgid "All Topics"
+msgstr "כל הנושאים"
+
+#: classes/class-aal-activity-log-list-table.php:321
+msgid "Username:"
+msgstr "שם משתמש"
+
+#: classes/class-aal-activity-log-list-table.php:279
+#: classes/class-aal-activity-log-list-table.php:298
+#: classes/class-aal-activity-log-list-table.php:307
+#: classes/class-aal-activity-log-list-table.php:317
+msgid "Edit"
+msgstr "עריכה"
+
+#: classes/class-aal-activity-log-list-table.php:278
+#: classes/class-aal-activity-log-list-table.php:292
+msgid "View"
+msgstr "הצגה"
+
+#: classes/class-aal-activity-log-list-table.php:172
+#: classes/class-aal-privacy.php:76
+msgid "Meta"
+msgstr "מידע"
+
+#: classes/class-aal-activity-log-list-table.php:171
+#: classes/class-aal-privacy.php:72
+msgid "Context"
+msgstr "הקשר"
+
+#: classes/class-aal-activity-log-list-table.php:170
+#: classes/class-aal-privacy.php:68
+msgid "Topic"
+msgstr "נושא"
+
+#: classes/class-aal-settings.php:117
+msgid "Don't Keep (Not recommended)"
+msgstr "אל תשמור (לא מומלץ)"
+
+#: classes/class-aal-settings.php:116 classes/class-aal-settings.php:133
+msgid "Keep"
+msgstr "שמור"
+
+#: classes/class-aal-settings.php:107
+msgid "Keep Failed Login Logs"
+msgstr "שמור ניסיונות כניסה שנכשלו"
+
+#: i18n/strings.php:29
+msgid "removed"
+msgstr "נמחק"
+
+#: i18n/strings.php:28
+msgid "registered"
+msgstr "נרשם"
+
+#: i18n/strings.php:27
+msgid "failed_login"
+msgstr "כישלון התחברות"
+
+#: i18n/strings.php:21
+msgid "uploaded"
+msgstr "הועלה"
+
+#: classes/class-aal-settings.php:330
+msgid "Attention: We are going to DELETE ALL ACTIVITIES from the database. Are you sure you want to do that?"
+msgstr "שים לב: המערכת הולכת למחוק את כל המידע שלך ממסד הנתונים, זו פעולה שאינה ניתנת לשחזור. האם אתה בטוח שאתה רוצה לעשות את זה?"
+
+#. Author URI of the plugin
+#: aryo-activity-log.php
+msgid "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Author of the plugin
+#: aryo-activity-log.php
+msgid "Activity Log Team"
+msgstr "Activity Log Team"
+
+#. Plugin URI of the plugin
+#: aryo-activity-log.php
+msgid "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#: classes/class-aal-privacy.php:106
+msgid "If you are a registered user, we save your content activity like create/update/delete posts and comments."
+msgstr "אם אתה משתמש רשום, אנו שומרים את פעילות התוכן שלך כמו יצירה/עדכון/מחיקה של פוסטים ותגובות."
+
+#: classes/class-aal-privacy.php:60
+msgid "Time"
+msgstr "זמן"
+
+#: classes/class-aal-privacy.php:19
+msgid "Activity Log Plugin"
+msgstr "Activity Log Plugin"
+
+#: classes/class-aal-activity-log-list-table.php:402
+msgid "Export as %s"
+msgstr "ייצוא כ %s"
+
+#: classes/class-aal-activity-log-list-table.php:400
+msgid "Export filtered records as %s"
+msgstr "ייצוא רשומות מסומנות כ %s"
+
+#: classes/class-aal-activity-log-list-table.php:383
+msgid "Export File Format"
+msgstr "פורמט קובץ ייצוא"
+
+#: classes/class-aal-settings.php:563
+msgid "and"
+msgstr "&"
+
+#: classes/class-aal-admin-ui.php:16 classes/class-aal-admin-ui.php:26
+msgctxt "Page and Menu Title"
+msgid "Activity Log"
+msgstr "יומן פעילות"
+
+#: i18n/strings.php:17
+msgid "restored"
+msgstr "שוחזר"
+
+#: i18n/strings.php:24
+msgid "Users"
+msgstr "משתמשים"
+
+#: i18n/strings.php:32
+msgid "Plugins"
+msgstr "תוספים"
+
+#: notifications/class-aal-notification-email.php:69
+msgid "Customize the message using the following placeholders: %s"
+msgstr "התאמה אישית של נוסח ההודעה באמצעות הקיצורים הבאים: %s"
+
+#: notifications/class-aal-notification-email.php:69
+msgid "Message"
+msgstr "הודעה"
+
+#: notifications/class-aal-notification-email.php:68
+msgid "The Email address notifications will be sent to"
+msgstr "התראות אימייל ישלחו אל"
+
+#: notifications/class-aal-notification-email.php:68
+msgid "To Email"
+msgstr "אל אימייל"
+
+#: notifications/class-aal-notification-email.php:67
+msgid "The source Email address"
+msgstr "מקור כתובת אימייל"
+
+#: notifications/class-aal-notification-email.php:67
+msgid "From Email"
+msgstr "מאת אימייל"
+
+#: notifications/class-aal-notification-email.php:65
+msgid ""
+"Hi there!\n"
+"\n"
+"A notification condition on [sitename] was matched. Here are the details:\n"
+"\n"
+"[action-details]\n"
+"\n"
+"Sent by ARYO Activity Log"
+msgstr ""
+"שלום וברכה!\n"
+"\n"
+"נמצאה התראה חדשה באתר [sitename]. להלן הפרטים:\n"
+"\n"
+"[action-details]\n"
+"\n"
+"נשלח על ידי תוסף יומן פעילות"
+
+#: notifications/class-aal-notification-email.php:49
+msgid "New notification from Activity Log"
+msgstr "הודעה חדשה מיומן פעילות באתר שלך"
+
+#: notifications/class-aal-notification-email.php:16
+msgid "Get notified by Email."
+msgstr "לקבל התראות באמצעות האימייל."
+
+#: notifications/class-aal-notification-email.php:15
+msgid "Email"
+msgstr "אימייל"
+
+#: classes/class-aal-activity-log-list-table.php:243
+#: classes/class-aal-activity-log-list-table.php:486
+#: notifications/abstract-class-aal-notification-base.php:121
+msgid "N/A"
+msgstr "אינו ידוע"
+
+#: notifications/abstract-class-aal-notification-base.php:102
+msgid "IP Address"
+msgstr "כתובת IP"
+
+#: notifications/abstract-class-aal-notification-base.php:100
+msgid "Object Name"
+msgstr "שם אובייקט"
+
+#: notifications/abstract-class-aal-notification-base.php:99
+msgid "Object Type"
+msgstr "סוג אובייקט"
+
+#: i18n/strings.php:152
+msgid "downloaded"
+msgstr "הורדה"
+
+#: i18n/strings.php:151
+msgid "Export"
+msgstr "ייצוא"
+
+#: i18n/strings.php:145
+msgid "tag_base"
+msgstr "תגית בסיס"
+
+#: i18n/strings.php:144
+msgid "category_base"
+msgstr "קטגוריית בסיס"
+
+#: i18n/strings.php:143
+msgid "permalink_structure"
+msgstr "מבנה קישורים"
+
+#: i18n/strings.php:140
+msgid "uploads_use_yearmonth_folders"
+msgstr "סידור מדיה בתיקיות לפי תאריך"
+
+#: i18n/strings.php:139
+msgid "large_size_h"
+msgstr "גובה תמונה גדולה"
+
+#: i18n/strings.php:138
+msgid "large_size_w"
+msgstr "רוחב תמונה גדולה"
+
+#: i18n/strings.php:137
+msgid "medium_size_h"
+msgstr "גובה תמונה בינונית"
+
+#: i18n/strings.php:136
+msgid "medium_size_w"
+msgstr "רוחב תמונה בינונית"
+
+#: i18n/strings.php:135
+msgid "thumbnail_crop"
+msgstr "חיתוך תמונה מוקטנת"
+
+#: i18n/strings.php:134
+msgid "thumbnail_size_h"
+msgstr "גובה תמונה מוקטנת"
+
+#: i18n/strings.php:133
+msgid "thumbnail_size_w"
+msgstr "רוחב תמונה מוקטנת"
+
+#: i18n/strings.php:130
+msgid "avatar_default"
+msgstr "אווטאר ברירת מחדל"
+
+#: i18n/strings.php:129
+msgid "avatar_rating"
+msgstr "ציון אווטאר"
+
+#: i18n/strings.php:128
+msgid "show_avatars"
+msgstr "הצגת אווטאר"
+
+#: i18n/strings.php:127
+msgid "blacklist_keys"
+msgstr "עדכון רשימה שחורה לתגובות"
+
+#: i18n/strings.php:126
+msgid "moderation_keys"
+msgstr "תגובות חייבות לעבור אישור ידני"
+
+#: i18n/strings.php:125
+msgid "comment_max_links"
+msgstr "מקסימום קישורים בתגובה"
+
+#: i18n/strings.php:124
+msgid "comment_whitelist"
+msgstr "תגובות רשימה לבנה"
+
+#: i18n/strings.php:123
+msgid "comment_moderation"
+msgstr "אישור תגובות"
+
+#: i18n/strings.php:122
+msgid "moderation_notify"
+msgstr "אישור ידני"
+
+#: i18n/strings.php:121
+msgid "comments_notify"
+msgstr "התראות לתגובות"
+
+#: i18n/strings.php:120
+msgid "comment_order"
+msgstr "סידור תגובות"
+
+#: i18n/strings.php:119
+msgid "default_comments_page"
+msgstr "חלוקת תגובות לעמודים"
+
+#: i18n/strings.php:118
+msgid "comments_per_page"
+msgstr "מספר תגובות בעמוד"
+
+#: i18n/strings.php:117
+msgid "page_comments"
+msgstr "תגובות בעמודים"
+
+#: i18n/strings.php:116
+msgid "thread_comments_depth"
+msgstr "עומק תגובות משורשרות"
+
+#: i18n/strings.php:115
+msgid "thread_comments"
+msgstr "תגובות משורשרות"
+
+#: i18n/strings.php:114
+msgid "close_comments_days_old"
+msgstr "סגירת תגובות לפוסטים ישנים"
+
+#: i18n/strings.php:113
+msgid "close_comments_for_old_posts"
+msgstr " לסגור תגובות עבור פוסטים ישנים"
+
+#: i18n/strings.php:112
+msgid "comment_registration"
+msgstr "תגובות למשתמשים רשומים"
+
+#: i18n/strings.php:111
+msgid "require_name_email"
+msgstr "המגיבים חייבים לכתוב את שמם ואת כתובת האימייל שלהם"
+
+#: i18n/strings.php:110
+msgid "default_comment_status"
+msgstr "להרשות לקוראים להגיב לפוסטים חדשים"
+
+#: i18n/strings.php:109
+msgid "default_ping_status"
+msgstr "אפשר פינגבאקים וטראקבאקים"
+
+#: i18n/strings.php:108
+msgid "default_pingback_flag"
+msgstr "להודיע לכל אתר שיש אליו קישור מאתר זה"
+
+#: i18n/strings.php:105
+msgid "blog_public"
+msgstr "נראות במנועי חיפוש"
+
+#: i18n/strings.php:104
+msgid "rss_use_excerpt"
+msgstr "RSS שימוש בתקציר"
+
+#: i18n/strings.php:103
+msgid "posts_per_rss"
+msgstr "מספר פוסטים ב RSS"
+
+#: i18n/strings.php:102
+msgid "posts_per_page"
+msgstr "מספר פוסטים בעמוד"
+
+#: i18n/strings.php:101
+msgid "page_for_posts"
+msgstr "עמוד פוסטים"
+
+#: i18n/strings.php:100
+msgid "page_on_front"
+msgstr "עמוד ראשי"
+
+#: i18n/strings.php:99
+msgid "show_on_front"
+msgstr "תצוגת עמוד ראשי"
+
+#: i18n/strings.php:95
+msgid "default_email_category"
+msgstr "אימייל ברירת מחדל"
+
+#: i18n/strings.php:94
+msgid "mailserver_pass"
+msgstr "ססמה שרת דואר"
+
+#: i18n/strings.php:93
+msgid "mailserver_login"
+msgstr "שם משתמש שרת דואר"
+
+#: i18n/strings.php:92
+msgid "mailserver_url"
+msgstr "קישור לשרת דואר"
+
+#: i18n/strings.php:91
+msgid "default_post_format"
+msgstr "פורמט ברירת מחדל"
+
+#: i18n/strings.php:90
+msgid "default_category"
+msgstr "קטגוריה ברירת מחדל"
+
+#: i18n/strings.php:89
+msgid "use_balanceTags"
+msgstr "תיקון אוטומטי של שגיאות קינון בתגיות XHTML"
+
+#: i18n/strings.php:88
+msgid "use_smilies"
+msgstr "שימוש בסמיילי"
+
+#: i18n/strings.php:85
+msgid "start_of_week"
+msgstr "יום תחילת השבוע"
+
+#: i18n/strings.php:84
+msgid "time_format"
+msgstr "פורמט שעה"
+
+#: i18n/strings.php:83
+msgid "date_format"
+msgstr "פורמט תאריך"
+
+#: i18n/strings.php:82
+msgid "timezone_string"
+msgstr "אזור זמן"
+
+#: i18n/strings.php:80
+msgid "default_role"
+msgstr "תפקיד ברירת מחדל"
+
+#: i18n/strings.php:79
+msgid "users_can_register"
+msgstr "רישום משתמשים"
+
+#: i18n/strings.php:78
+msgid "admin_email"
+msgstr "אימייל מנהל אתר"
+
+#: i18n/strings.php:77
+msgid "home"
+msgstr "ראשי"
+
+#: i18n/strings.php:76
+msgid "siteurl"
+msgstr "כתובת האתר"
+
+#: i18n/strings.php:75
+msgid "blogdescription"
+msgstr "תיאור אתר"
+
+#: i18n/strings.php:74
+msgid "blogname"
+msgstr "שם האתר"
+
+#: i18n/strings.php:71
+msgid "unspammed"
+msgstr "לא ספאם"
+
+#: i18n/strings.php:70
+msgid "spammed"
+msgstr "ספאם"
+
+#: i18n/strings.php:69
+msgid "untrashed"
+msgstr "שוחזר"
+
+#: i18n/strings.php:16
+msgid "trashed"
+msgstr "הועבר לפח"
+
+#: i18n/strings.php:68
+msgid "unapproved"
+msgstr "לא מאושר"
+
+#: i18n/strings.php:67
+msgid "approved"
+msgstr "אושר"
+
+#: i18n/strings.php:66
+msgid "pending"
+msgstr "בהמתנה"
+
+#: i18n/strings.php:65
+msgid "Comments"
+msgstr "תגובות"
+
+#: i18n/strings.php:57
+msgid "WordPress Auto Updated"
+msgstr "וורדפרס עודכן אוטומטי"
+
+#: i18n/strings.php:56
+msgid "WordPress Updated"
+msgstr "וורדפרס עודכן"
+
+#: i18n/strings.php:55
+msgid "Core"
+msgstr "ליבה"
+
+#: i18n/strings.php:162
+msgid "Taxonomy"
+msgstr "טקסונומי"
+
+#: i18n/strings.php:161
+msgid "Menu"
+msgstr "תפריט"
+
+#: i18n/strings.php:46
+msgid "Options"
+msgstr "הגדרות"
+
+#: i18n/strings.php:160
+msgid "Widget"
+msgstr "וידג'טים"
+
+#: i18n/strings.php:40
+msgid "Theme Customizer"
+msgstr "התאמה אישית"
+
+#: i18n/strings.php:159
+msgid "Theme"
+msgstr "תבנית"
+
+#: i18n/strings.php:36
+msgid "File Updated"
+msgstr "קובץ עודכן"
+
+#: i18n/strings.php:35
+msgid "installed"
+msgstr "הותקן"
+
+#: i18n/strings.php:34
+msgid "deactivated"
+msgstr "כובה"
+
+#: i18n/strings.php:33
+msgid "activated"
+msgstr "הופעל"
+
+#: i18n/strings.php:158
+msgid "Plugin"
+msgstr "תוסף"
+
+#: i18n/strings.php:26
+msgid "logged_in"
+msgstr "התחבר"
+
+#: i18n/strings.php:25
+msgid "logged_out"
+msgstr "התנתק"
+
+#: i18n/strings.php:156
+msgid "Attachment"
+msgstr "מדיה"
+
+#: i18n/strings.php:15
+msgid "deleted"
+msgstr "נמחק"
+
+#: i18n/strings.php:14
+msgid "updated"
+msgstr "עודכן"
+
+#: i18n/strings.php:13
+msgid "created"
+msgstr "נוצר"
+
+#: i18n/strings.php:155
+msgid "Post"
+msgstr "פוסט"
+
+#: i18n/strings.php:9
+msgid "Editor"
+msgstr "עורך"
+
+#: i18n/strings.php:8
+msgid "Administrator"
+msgstr "מנהל"
+
+#: i18n/strings.php:6
+msgid "Get aware of any activities that are taking place on your dashboard! Imagine it like a black-box for your WordPress site. e.g. post was deleted, plugin was activated, user logged in or logged out - it's all these for you to see."
+msgstr "תיעוד כל הפעילויות המתרחשות בלוח הבקרה של מערכת וורדפרס. לדוגמא: פוסט נמחק, תוסף הופעל, משתמש התחבר או התנתק מהמערכת - כל זה מתועד בלוח בקרה של התוסף יומן פעילות."
+
+#: hooks/class-aal-hook-posts.php:10
+msgid "(no title)"
+msgstr "(ללא כותרת)"
+
+#: classes/class-aal-settings.php:538
+msgid "A notification will be sent upon a successful match with the following conditions:"
+msgstr "תישלח התראה אם תהיה התאמה לאחד התנאים הבאים:"
+
+#: classes/class-aal-settings.php:528
+msgid "not equals to"
+msgstr "לא שווה ל"
+
+#: classes/class-aal-settings.php:527
+msgid "equals to"
+msgstr "שווה ל"
+
+#: classes/class-aal-settings.php:523
+msgid "Action Performed"
+msgstr "פעולה שבוצעה"
+
+#: classes/class-aal-settings.php:522
+#: notifications/abstract-class-aal-notification-base.php:101
+msgid "Action Type"
+msgstr "סוג פעולה"
+
+#: classes/class-aal-activity-log-list-table.php:168
+#: classes/class-aal-settings.php:521 i18n/strings.php:157
+#: notifications/abstract-class-aal-notification-base.php:98
+msgid "User"
+msgstr "משתמש"
+
+#: classes/class-aal-settings.php:504
+msgid "No"
+msgstr "לא"
+
+#: classes/class-aal-settings.php:503
+msgid "Yes"
+msgstr "כן"
+
+#: classes/class-aal-settings.php:404
+msgid "Serve yourself with custom-tailored notifications. First, define your conditions. Then, choose how the notifications will be sent."
+msgstr "התראות מותאמות אישית ישירות לאימייל שלך. ראשית, הגדר את האירועים ולאחר מכן תבחר את התראות שישלחו."
+
+#: classes/class-aal-settings.php:398
+msgid "These are some basic settings for Activity Log."
+msgstr "אלו חלק מההגדרות הבסיסיות של יומן הפעילות."
+
+#: classes/class-aal-settings.php:341
+msgid "You do not have sufficient permissions to access this page."
+msgstr "אין לך הרשאות מספיקות כדי לגשת לעמוד זה."
+
+#: classes/class-aal-settings.php:319
+msgid "All activities have been successfully deleted."
+msgstr "כל הפעילויות נמחקו בהצלחה."
+
+#: classes/class-aal-settings.php:260
+msgid "General"
+msgstr "הגדרות"
+
+#: classes/class-aal-settings.php:224
+msgid "Enable?"
+msgstr "לאפשר?"
+
+#: classes/class-aal-settings.php:196
+msgid "Notification Events"
+msgstr "התראות לאירועים"
+
+#: classes/class-aal-settings.php:179
+msgid "Warning: Clicking this will delete all activities from the database."
+msgstr "שימו לב: לחיצה תמחוק את כל הפעילויות מהדטאבייס"
+
+#: classes/class-aal-settings.php:175
+msgid "<a href=\"%s\" id=\"%s\">Reset Database</a>"
+msgstr "<a href=\"%s\" id=\"%s\">איפוס דטאבייס</a>"
+
+#: classes/class-aal-settings.php:170
+msgid "Delete Log Activities"
+msgstr "מחיקת כל היומן פעילות"
+
+#: classes/class-aal-settings.php:101 classes/class-aal-settings.php:203
+msgid "Maximum number of days to keep activity log. Leave blank to keep activity log forever (not recommended)."
+msgstr "מספר ימים מרבי כדי לשמור תיעוד יומן הפעילות. השאר ריק כדי לשמור תיעוד יומן הפעילות לנצח (לא מומלץ)"
+
+#: classes/class-aal-settings.php:100
+msgid "days."
+msgstr "ימים."
+
+#: classes/class-aal-settings.php:91
+msgid "Keep logs for"
+msgstr "שמירת היסטוריית פעילות למשך"
+
+#: classes/class-aal-settings.php:84
+msgid "Display Options"
+msgstr "אפשרויות תצוגה"
+
+#: classes/class-aal-settings.php:43 classes/class-aal-settings.php:300
+msgid "Activity Log Settings"
+msgstr "הגדרות יומן פעילות"
+
+#: classes/class-aal-settings.php:29 classes/class-aal-settings.php:44
+msgid "Settings"
+msgstr "הגדרות"
+
+#: classes/class-aal-notifications.php:299
+msgid "The AAL notification handler you are trying to register does not exist."
+msgstr "המפעיל של הודעת AAL שאתה מנסה לרשום אינו קיים."
+
+#: classes/class-aal-settings.php:189 classes/class-aal-settings.php:267
+msgid "Notifications"
+msgstr "התראות"
+
+#. Plugin Name of the plugin
+#: aryo-activity-log.php classes/class-aal-privacy.php:53
+#: classes/class-aal-privacy.php:109 classes/class-aal-settings.php:26
+#: i18n/strings.php:5
+msgid "Activity Log"
+msgstr "יומן פעילות"
+
+#: classes/class-aal-activity-log-list-table.php:459
+msgid "Filter"
+msgstr "סינון"
+
+#: classes/class-aal-activity-log-list-table.php:452
+msgid "Month"
+msgstr "חודש"
+
+#: classes/class-aal-activity-log-list-table.php:451
+msgid "Week"
+msgstr "שבוע"
+
+#: classes/class-aal-activity-log-list-table.php:450
+msgid "Yesterday"
+msgstr "אתמול"
+
+#: classes/class-aal-activity-log-list-table.php:449
+msgid "Today"
+msgstr "היום"
+
+#: classes/class-aal-activity-log-list-table.php:448
+msgid "All Time"
+msgstr "כל הזמן"
+
+#: classes/class-aal-activity-log-list-table.php:537
+msgid "All Actions"
+msgstr "כל הפעולות"
+
+#: classes/class-aal-activity-log-list-table.php:497
+msgid "All Users"
+msgstr "כל המשתמשים"
+
+#: classes/class-aal-activity-log-list-table.php:473
+msgid "All Roles"
+msgstr "כל התפקידים"
+
+#: classes/class-aal-activity-log-list-table.php:359
+msgid "Search"
+msgstr "חיפוש"
+
+#: classes/class-aal-activity-log-list-table.php:327
+msgid "All"
+msgstr "הכל"
+
+#: classes/class-aal-activity-log-list-table.php:237
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: classes/class-aal-activity-log-list-table.php:203
+msgid "%s ago"
+msgstr "לפני %s"
+
+#: classes/class-aal-activity-log-list-table.php:173
+#: classes/class-aal-privacy.php:64
+msgid "Action"
+msgstr "פעולה"
+
+#: classes/class-aal-activity-log-list-table.php:169
+#: classes/class-aal-privacy.php:80
+msgid "IP"
+msgstr "IP"
+
+#: classes/class-aal-activity-log-list-table.php:167
+msgid "Date"
+msgstr "תאריך"
+
+#: classes/class-aal-activity-log-list-table.php:156
+msgid "Activities"
+msgstr "פעילויות"
+
+#: aryo-activity-log.php:123 aryo-activity-log.php:134
+msgid "Cheatin&#8217; huh?"
+msgstr "מרמה, אה?"
