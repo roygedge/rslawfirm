@@ -1,0 +1,289 @@
+/*
+RTL (Right-to-Left) Styles for Hebrew
+RS Law Firm - Enhanced Hebrew Support
+*/
+
+/* Base RTL Layout */
+body.rtl {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Heebo', 'Assistant', 'Rubik', Arial, sans-serif;
+}
+
+/* Typography RTL */
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+    text-align: right;
+    direction: rtl;
+}
+
+.rtl p, .rtl li, .rtl div {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Navigation RTL */
+.rtl .site-navigation ul {
+    direction: rtl;
+}
+
+.rtl .site-navigation li {
+    float: right;
+}
+
+.rtl .site-navigation a {
+    text-align: right;
+}
+
+/* Mobile Menu RTL */
+.rtl .mobile-menu {
+    right: auto;
+    left: 0;
+}
+
+.rtl .menu-toggle {
+    float: left;
+}
+
+/* Forms RTL */
+.rtl input[type="text"],
+.rtl input[type="email"], 
+.rtl input[type="tel"],
+.rtl textarea,
+.rtl select {
+    direction: rtl;
+    text-align: right;
+}
+
+.rtl label {
+    text-align: right;
+}
+
+/* Buttons RTL */
+.rtl .primary-cta {
+    direction: rtl;
+}
+
+/* TL;DR Section RTL */
+.rtl .tldr {
+    border-right: 4px solid #007cba;
+    border-left: none;
+}
+
+.rtl .tldr ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+.rtl .tldr li {
+    padding-right: 25px;
+    padding-left: 0;
+}
+
+.rtl .tldr li:before {
+    right: 0;
+    left: auto;
+}
+
+/* FAQ Section RTL */
+.rtl details summary:after {
+    left: auto;
+    right: 20px;
+}
+
+/* Mobile Sticky CTA RTL */
+.rtl .cta-phone {
+    border-left: 1px solid rgba(255,255,255,0.2);
+    border-right: none;
+}
+
+/* Process Steps RTL */
+.rtl .steps-container {
+    direction: rtl;
+}
+
+.rtl .step-item {
+    text-align: center; /* Keep centered for better design */
+}
+
+/* Contact Bar RTL */
+.rtl .contact-info {
+    direction: rtl;
+}
+
+.rtl .contact-item {
+    direction: rtl;
+}
+
+/* Document Checklist RTL */
+.rtl .checklist li {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.rtl .checklist li:before {
+    right: 0;
+    left: auto;
+}
+
+/* Legal Rights Section RTL */
+.rtl .legal-rights {
+    border-right: 4px solid #2196f3;
+    border-left: none;
+}
+
+.rtl .legal-rights ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+/* Breadcrumbs RTL */
+.rtl .breadcrumbs ul {
+    direction: rtl;
+}
+
+.rtl .breadcrumbs li {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.rtl .breadcrumbs li:not(:last-child):after {
+    content: "▶";
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* Case Examples RTL */
+.rtl .case-example {
+    text-align: right;
+}
+
+/* Related Links RTL */
+.rtl .related-links ul {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.rtl .related-links a:before {
+    content: "← ";
+}
+
+/* Footer RTL */
+.rtl .site-footer {
+    direction: rtl;
+    text-align: right;
+}
+
+/* WordPress Core RTL Overrides */
+.rtl .wp-block-group,
+.rtl .wp-block-columns {
+    direction: rtl;
+}
+
+.rtl .wp-block-button {
+    text-align: right;
+}
+
+/* Elementor RTL Support */
+.rtl .elementor-section,
+.rtl .elementor-column,
+.rtl .elementor-widget {
+    direction: rtl;
+}
+
+.rtl .elementor-heading-title {
+    text-align: right;
+}
+
+.rtl .elementor-text-editor {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Admin Bar RTL */
+.rtl #wpadminbar {
+    direction: rtl;
+}
+
+/* Print RTL */
+@media print {
+    .rtl * {
+        direction: rtl !important;
+        text-align: right !important;
+    }
+}
+
+/* Mobile RTL Adjustments */
+@media (max-width: 768px) {
+    .rtl .mobile-sticky-cta {
+        direction: rtl;
+    }
+    
+    .rtl .value-proposition {
+        text-align: center;
+        direction: rtl;
+    }
+    
+    .rtl .contact-info {
+        text-align: center;
+    }
+}
+
+/* Hebrew Font Loading Optimization */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/heebo/v21/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2cUyI.woff2') format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/assistant/v18/2sDPZGJYnIjSi6H75xXGZO1CkqQ.woff2') format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+/* Accessibility RTL */
+.rtl .sr-only {
+    direction: rtl;
+}
+
+.rtl [aria-label] {
+    direction: rtl;
+}
+
+/* Custom Hebrew Typography */
+.rtl .hebrew-emphasis {
+    font-weight: 600;
+    color: #007cba;
+}
+
+.rtl .hebrew-quote {
+    border-right: 3px solid #007cba;
+    border-left: none;
+    padding-right: 15px;
+    padding-left: 0;
+    font-style: normal;
+}
+
+/* Hebrew Number Formatting */
+.rtl .hebrew-numbers {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Mixed Content (Hebrew + English) */
+.rtl .mixed-content {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.rtl .mixed-content .english {
+    direction: ltr;
+    unicode-bidi: embed;
+    display: inline-block;
+}
