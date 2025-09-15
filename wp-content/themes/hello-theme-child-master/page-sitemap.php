@@ -34,57 +34,50 @@ get_header(); ?>
                 </ul>
             </section>
 
-            <!-- Legal Services -->
+            <!-- Legal Services - Updated to match actual website -->
             <section class="sitemap-section">
                 <h2 style="color: #007cba; border-bottom: 2px solid #007cba; padding-bottom: 10px;">תחומי התמחות</h2>
                 <ul style="list-style: none; padding: 0;">
                     <li style="margin-bottom: 8px;">
-                        <a href="<?php echo home_url('/labor-law'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">⚖️ דיני עבודה</a>
+                        <a href="<?php echo home_url('/divorce'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">👨‍👩‍👧‍👦 גירושין</a>
                         <ul style="margin-top: 5px; padding-right: 15px;">
-                            <li><a href="<?php echo home_url('/labor-law#wrongful-termination'); ?>" style="color: #666; font-size: 0.9em;">פיטורים ללא שימוע</a></li>
-                            <li><a href="<?php echo home_url('/labor-law#unpaid-wages'); ?>" style="color: #666; font-size: 0.9em;">אי תשלום שכר</a></li>
-                            <li><a href="<?php echo home_url('/labor-law#workplace-harassment'); ?>" style="color: #666; font-size: 0.9em;">הטרדה במקום העבודה</a></li>
+                            <li><a href="<?php echo home_url('/divorce#child-support'); ?>" style="color: #666; font-size: 0.9em;">מזונות ילדים</a></li>
+                            <li><a href="<?php echo home_url('/divorce#property-division'); ?>" style="color: #666; font-size: 0.9em;">חלוקת רכוש</a></li>
+                            <li><a href="<?php echo home_url('/divorce#custody'); ?>" style="color: #666; font-size: 0.9em;">אחריות הורית</a></li>
                         </ul>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a href="<?php echo home_url('/personal-injury'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">🩹 נזקי גוף</a>
+                        <a href="<?php echo home_url('/wills-inheritance'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">📜 צוואות וירושה</a>
                         <ul style="margin-top: 5px; padding-right: 15px;">
-                            <li><a href="<?php echo home_url('/personal-injury#car-accidents'); ?>" style="color: #666; font-size: 0.9em;">תאונות דרכים</a></li>
-                            <li><a href="<?php echo home_url('/personal-injury#work-accidents'); ?>" style="color: #666; font-size: 0.9em;">תאונות עבודה</a></li>
-                            <li><a href="<?php echo home_url('/personal-injury#medical-malpractice'); ?>" style="color: #666; font-size: 0.9em;">רשלנות רפואית</a></li>
+                            <li><a href="<?php echo home_url('/wills-inheritance#will-objection'); ?>" style="color: #666; font-size: 0.9em;">הגשת התנגדות לצוואה</a></li>
+                            <li><a href="<?php echo home_url('/wills-inheritance#will-defense'); ?>" style="color: #666; font-size: 0.9em;">הגנה על צוואה</a></li>
+                            <li><a href="<?php echo home_url('/wills-inheritance#remote-deposit'); ?>" style="color: #666; font-size: 0.9em;">הפקדת צוואה מרחוק</a></li>
+                            <li><a href="<?php echo home_url('/wills-inheritance#creating-will'); ?>" style="color: #666; font-size: 0.9em;">עריכת צוואה עצמאית</a></li>
+                            <li><a href="<?php echo home_url('/wills-inheritance#property-registration'); ?>" style="color: #666; font-size: 0.9em;">רישום נכס בירושה</a></li>
                         </ul>
+                    </li>
+                    <li style="margin-bottom: 8px;">
+                        <a href="<?php echo home_url('/guardianship'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">🛡️ אפוטרופסות</a>
+                        <ul style="margin-top: 5px; padding-right: 15px;">
+                            <li><a href="<?php echo home_url('/guardianship#enduring-power'); ?>" style="color: #666; font-size: 0.9em;">ייפוי כוח מתמשך</a></li>
+                            <li><a href="<?php echo home_url('/guardianship#appointment'); ?>" style="color: #666; font-size: 0.9em;">מינוי אפוטרופוס</a></li>
+                        </ul>
+                    </li>
+                    <li style="margin-bottom: 8px;">
+                        <a href="<?php echo home_url('/prenuptial-agreements'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">💍 הסכמי ממון</a>
+                    </li>
+                    <li style="margin-bottom: 8px;">
+                        <a href="<?php echo home_url('/common-law-partnerships'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">🤝 ידועים בציבור</a>
                     </li>
                     <li style="margin-bottom: 8px;">
                         <a href="<?php echo home_url('/real-estate'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">🏘️ דיני מקרקעין</a>
                         <ul style="margin-top: 5px; padding-right: 15px;">
                             <li><a href="<?php echo home_url('/real-estate#property-purchase'); ?>" style="color: #666; font-size: 0.9em;">רכישת נכסים</a></li>
-                            <li><a href="<?php echo home_url('/real-estate#property-disputes'); ?>" style="color: #666; font-size: 0.9em;">סכסוכי נכסים</a></li>
                             <li><a href="<?php echo home_url('/real-estate#rental-law'); ?>" style="color: #666; font-size: 0.9em;">דיני שכירות</a></li>
                         </ul>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a href="<?php echo home_url('/criminal-law'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">🚨 דיני פלילי</a>
-                        <ul style="margin-top: 5px; padding-right: 15px;">
-                            <li><a href="<?php echo home_url('/criminal-law#white-collar'); ?>" style="color: #666; font-size: 0.9em;">פשעי צווארון לבן</a></li>
-                            <li><a href="<?php echo home_url('/criminal-law#traffic-violations'); ?>" style="color: #666; font-size: 0.9em;">עבירות תנועה</a></li>
-                            <li><a href="<?php echo home_url('/criminal-law#domestic-violence'); ?>" style="color: #666; font-size: 0.9em;">אלימות במשפחה</a></li>
-                        </ul>
-                    </li>
-                    <li style="margin-bottom: 8px;">
-                        <a href="<?php echo home_url('/debt-collection'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">💰 הוצאה לפועל</a>
-                        <ul style="margin-top: 5px; padding-right: 15px;">
-                            <li><a href="<?php echo home_url('/debt-collection#debt-recovery'); ?>" style="color: #666; font-size: 0.9em;">גביית חובות</a></li>
-                            <li><a href="<?php echo home_url('/debt-collection#asset-seizure'); ?>" style="color: #666; font-size: 0.9em;">עיקול נכסים</a></li>
-                            <li><a href="<?php echo home_url('/debt-collection#payment-arrangements'); ?>" style="color: #666; font-size: 0.9em;">הסדרי תשלומים</a></li>
-                        </ul>
-                    </li>
-                    <li style="margin-bottom: 8px;">
-                        <a href="<?php echo home_url('/family-law'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">👨‍👩‍👧‍👦 דיני משפחה</a>
-                        <ul style="margin-top: 5px; padding-right: 15px;">
-                            <li><a href="<?php echo home_url('/family-law#divorce'); ?>" style="color: #666; font-size: 0.9em;">גירושין</a></li>
-                            <li><a href="<?php echo home_url('/family-law#custody'); ?>" style="color: #666; font-size: 0.9em;">משמורת ילדים</a></li>
-                            <li><a href="<?php echo home_url('/family-law#alimony'); ?>" style="color: #666; font-size: 0.9em;">מזונות</a></li>
-                        </ul>
+                        <a href="<?php echo home_url('/mediation'); ?>" style="color: #007cba; text-decoration: none; font-weight: 500;">🤝 גישור</a>
                     </li>
                 </ul>
             </section>

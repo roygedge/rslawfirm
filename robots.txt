@@ -1,4 +1,24 @@
+# Default
 User-agent: *
+Allow: /
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
+
+# Sitemaps
 Sitemap: https://rslawfirm.co.il/sitemap_index.xml
+
+# OpenAI search/indexing bots (recommended to allow for AI visibility)
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# OpenAI training crawler (optional to allow)
+User-agent: GPTBot
+Allow: /
+
+# Other AI crawlers
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
